@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chris.examsystem.university.dao.ExamsystemUniversityOfficeDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.chris.examsystem.university.entity.ExamsystemUniversityOfficeEntity" id="examsystemUniversityOfficeMap">
+        <result property="id" column="id"/>
+        <result property="colOfficeId" column="col_office_id"/>
+        <result property="colOfficePsw" column="col_office_psw"/>
+        <result property="universityId" column="university_id"/>
+        <result property="universityName" column="university_name"/>
+    </resultMap>
+
+
+</mapper>

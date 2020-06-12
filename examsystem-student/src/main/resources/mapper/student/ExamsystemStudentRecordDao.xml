@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chris.examsystem.student.dao.ExamsystemStudentRecordDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.chris.examsystem.student.entity.ExamsystemStudentRecordEntity" id="examsystemStudentRecordMap">
+        <result property="id" column="id"/>
+        <result property="stuExamId" column="stu_exam_id"/>
+        <result property="appId" column="app_id"/>
+        <result property="gradeId" column="grade_id"/>
+        <result property="majorId" column="major_id"/>
+        <result property="majorName" column="major_name"/>
+        <result property="universityId" column="university_id"/>
+        <result property="universityName" column="university_name"/>
+    </resultMap>
+
+
+</mapper>
